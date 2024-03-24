@@ -13,22 +13,22 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="学号：202100460114  姓名：魏士旋  班级：人工智能实验班 实验目的熟悉使用主流云平台并搭建个人博客或者网站。 具体包括： 参考方案：基于主流云平台，设计、实现个人博客或者网站的搭建，撰写实验报告（附带网站链接并可以访问），并在网站上呈现此次实验报告。 实验环境联网的计算机一台、Windows 实验步骤与内容配置相应的环境安装node.js，前往官网进行安装包的下载，之后按照默认的选项">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/images%5C1.png">
-<meta property="og:image" content="http://example.com/images%5C2.png">
-<meta property="og:image" content="http://example.com/images%5C3.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/4.png">
-<meta property="og:image" content="http://example.com/images%5C5.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/6.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/7.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/8.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/9.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/10.png">
-<meta property="og:image" content="http://example.com/2024/03/22/Experiment3/images/11.png">
+<meta property="og:image" content="http://example.com/..%5Cimages%5C1.png">
+<meta property="og:image" content="http://example.com/..%5Cimages%5C2.png">
+<meta property="og:image" content="http://example.com/..%5Cimages%5C3.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/4.png">
+<meta property="og:image" content="http://example.com/..%5Cimages%5C5.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/6.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/7.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/8.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/9.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/10.png">
+<meta property="og:image" content="http://example.com/2024/03/22/images/11.png">
 <meta property="article:published_time" content="2024-03-22T12:59:54.139Z">
-<meta property="article:modified_time" content="2024-03-24T07:51:29.177Z">
+<meta property="article:modified_time" content="2024-03-24T08:36:46.958Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images%5C1.png">
+<meta name="twitter:image" content="http://example.com/..%5Cimages%5C1.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -113,37 +113,37 @@
 <p>参考方案：基于主流云平台，设计、实现个人博客或者网站的搭建，撰写实验报告（附带网站链接并可以访问），并在网站上呈现此次实验报告。</p>
 <h1 id="实验环境"><a href="#实验环境" class="headerlink" title="实验环境"></a>实验环境</h1><p>联网的计算机一台、Windows</p>
 <h1 id="实验步骤与内容"><a href="#实验步骤与内容" class="headerlink" title="实验步骤与内容"></a>实验步骤与内容</h1><h2 id="配置相应的环境"><a href="#配置相应的环境" class="headerlink" title="配置相应的环境"></a>配置相应的环境</h2><p>安装node.js，前往官网进行安装包的下载，之后按照默认的选项进行安装，安装完毕后将会自动创建环境变量，可以在命令行中直接输入node -v进行验证，结果如下：</p>
-<p><img src="/images%5C1.png" alt="png"></p>
+<p><img src="/..%5Cimages%5C1.png" alt="png"></p>
 <p>最新版的node在安装时同时也安装了npm,执行npm -v查看npm版本：</p>
-<p><img src="/images%5C2.png" alt="png"></p>
+<p><img src="/..%5Cimages%5C2.png" alt="png"></p>
 <h2 id="使用hexo进行静态网站的搭建"><a href="#使用hexo进行静态网站的搭建" class="headerlink" title="使用hexo进行静态网站的搭建"></a>使用hexo进行静态网站的搭建</h2><p>接下来，使用 npm 安装 Hexo 命令行界面（CLI）工具：</p>
 <p>npm install -g hexo-cli</p>
 <p>-g 标志表示全局安装，这样就可以在任何目录下使用 hexo 命令。</p>
 <p>在想要创建的文件目录中，运行 hexo init命令：</p>
-<p><img src="/images%5C3.png" alt="png"></p>
-<img src="images\4.png" alt="png" style="zoom:80%;" />
+<p><img src="/..%5Cimages%5C3.png" alt="png"></p>
+<img src="..\images\4.png" alt="png" style="zoom:80%;" />
 
 <p>之后使用npm install命令来安装所有必需的依赖包：</p>
-<p><img src="/images%5C5.png" alt="png"></p>
+<p><img src="/..%5Cimages%5C5.png" alt="png"></p>
 <p>运行hexo generate命令来生成静态文件，这些文件位于 public 目录下：</p>
-<img src="images\6.png" alt="png" style="zoom:80%;" />
+<img src="..\images\6.png" alt="png" style="zoom:80%;" />
 
 <p>使用hexo server命令启动本地服务器，浏览器 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 中将会出现本地网站上，能看到 Hexo 默认主题的欢迎页面:</p>
-<img src="images\7.png" alt="png" style="zoom:80%;" />
+<img src="..\images\7.png" alt="png" style="zoom:80%;" />
 
 
 
 <h2 id="连接GitHub"><a href="#连接GitHub" class="headerlink" title="连接GitHub"></a>连接GitHub</h2><p>在刚才的文件夹中，运用git bash打开之后，输入以下命令：</p>
-<img src="images\8.png" alt="png" style="zoom:80%;" />
+<img src="..\images\8.png" alt="png" style="zoom:80%;" />
 
 <p>之后就可以生成密钥，找到密钥文件的位置，然后用记事本打开，之后将复制的密钥添加到GitHub中：</p>
-<img src="images\9.png" alt="png" style="zoom:80%;" />
+<img src="..\images\9.png" alt="png" style="zoom:80%;" />
 
 <p>出现以下结果表示本地和GitHub连接成功：</p>
-<img src="images\10.png" alt="png" style="zoom:80%;" />
+<img src="..\images\10.png" alt="png" style="zoom:80%;" />
 
 <p>之后创建GitHub Pages仓库，创建成功后如下图所示：</p>
-<img src="images\11.png" alt="png" style="zoom:80%;" />
+<img src="..\images\11.png" alt="png" style="zoom:80%;" />
 
 <p>网址为：<a target="_blank" rel="noopener" href="https://github.com/shixuanw/shixuanw.github.io">https://github.com/shixuanw/shixuanw.github.io</a></p>
 <h2 id="部署Hexo到GitHub-Pages"><a href="#部署Hexo到GitHub-Pages" class="headerlink" title="部署Hexo到GitHub Pages"></a>部署Hexo到GitHub Pages</h2><p>首先安装 hexo-deployer-git：</p>
@@ -164,7 +164,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/03/22/Experiment3/" data-id="clu59j9em0000zsvcakb6gi14" data-title="实验3 搭建个人博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/03/22/Experiment3/" data-id="clu59mo8w0000rovc6upjf1sv" data-title="实验3 搭建个人博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
